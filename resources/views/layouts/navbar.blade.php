@@ -4,7 +4,7 @@
             UAS PEMROGRAMAN WEB2
         </div>
         <div class="text-3xl font-bold text-white">
-            PUSAT DATA NASIONAL
+            DATA DUKCAPIL
         </div>
         <div class="flex space-x-4 mt-4">
             <a class="nav-link text-white" href="{{ route('welcome')}}">Home</a>

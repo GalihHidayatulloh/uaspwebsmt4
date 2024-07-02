@@ -3,7 +3,7 @@
 @section('body')
 
 <h1 class="text-7xl font-bold ">
-    Add Data
+    Tambah Data
 </h1>
 <hr />
 

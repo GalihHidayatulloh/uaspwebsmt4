@@ -11,7 +11,7 @@
 
 <div class="flex items-center justify-between">
     <h1 class="text-7xl font-bold ">
-        PUSAT DATA NASIONAL
+        DATA DUKCAPIL
     </h1>
     <a href="{{ route('disdukcapil.store') }}" class="ml-4">
         <button class="bg-green-500 hover:bg-green-700 text-white-500 font-bold py-2 px-4 rounded">
