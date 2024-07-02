@@ -10,8 +10,8 @@
 </div>
 
 
-<h1 class="text-7xl font-bold">
-   Edit
+<h1 class="text-7xl font-bold text-center w-full">
+   EDIT DATA
 </h1>
 <hr />
 

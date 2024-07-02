@@ -2,8 +2,8 @@
 
 @section('body')
 
-<h1 class="text-7xl font-bold">
-   Detail
+<h1 class="text-7xl font-bold text-center w-full">
+    DATA DUKCAPIL
 </h1>
 <hr />
 

@@ -2,8 +2,8 @@
 
 @section('body')
 
-<h1 class="text-7xl font-bold ">
-    Tambah Data
+<h1 class="text-7xl font-bold text-center w-full">
+    TAMBAH DATA
 </h1>
 <hr />
 

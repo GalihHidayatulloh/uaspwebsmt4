@@ -9,27 +9,28 @@
     </span>
 </div>
 
-<div class="flex items-center justify-between">
-    <h1 class="text-7xl font-bold ">
+<div class="flex items-center justify-between mb-4">
+    <h1 class="text-7xl font-bold text-center w-full">
         DATA DUKCAPIL
     </h1>
+</div>
+
+<hr class="my-4">
+
+<div class="flex justify-between mb-4">
+    <form action="{{ route('disdukcapil.index') }}" method="GET" class="text-center flex items-center space-x-4">
+        <input type="text" name="search" id="search" placeholder="Cari berdasarkan NIK" class="block w-64 p-2 border border-gray-300 rounded-lg">
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white-500 font-bold py-2 px-4 rounded">
+            <span class="text-blue-950">Search</span>
+        </button>
+    </form>
+
     <a href="{{ route('disdukcapil.store') }}" class="ml-4">
         <button class="bg-green-500 hover:bg-green-700 text-white-500 font-bold py-2 px-4 rounded">
             <span class="text-green-950">Tambahkan Data</span>
         </button>
     </a>
 </div>
-
-<hr class="my-4">
-
-<form action="{{ route('disdukcapil.index') }}" method="GET" class="mb-4">
-    <div class="flex items-center space-x-4">
-        <input type="text" name="search" id="search" placeholder="Cari berdasarkan NIK" class="block w-64 p-2 border border-gray-300 rounded-lg">
-        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white-500 font-bold py-2 px-4 rounded">
-            <span class="text-blue-950">Search</span>
-        </button>
-    </div>
-</form>
 
 <table class="table-auto w-full">
     <thead>
@@ -52,7 +53,7 @@
             <td class="border px-4 py-2">{{ $disdukcapil->alamat }}</td>
             <td class="border px-4 py-2">{{ $disdukcapil->nomorhp }}</td>
             <td>
-                <div class="flex">
+                <div class="flex justify-center">
                     <a href="{{ route('disdukcapil.show', $disdukcapil->id) }}" class="ml-4">
                         <button class="bg-cyan-500 hover:bg-cyan-700 text-white-500 font-bold py-2 px-4 rounded">
                             <span class="text-cyan-950">Detail</span>
